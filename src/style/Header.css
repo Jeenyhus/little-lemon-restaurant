@@ -1,0 +1,74 @@
+/* Header.css */
+
+header {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+h3 {
+    margin: 10px 0;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+p {
+    color: #555;
+    font-size: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #ffe54c; /* Lighter yellow */
+    color: #333;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffd700; /* Darker yellow on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Responsive Styling */
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
